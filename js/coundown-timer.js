@@ -20,7 +20,7 @@
 			
 			// eventDate = Date.parse(settings['date']) / 1000;
 			// eventDate = new Date("Feb 11 15:11:00 2015") / 1000;
-			eventDate = new Date("Jun 25 20:00:00 2015") / 1000;
+			eventDate = new Date("Oct 15 21:00:00 2015") / 1000;
 			currentDate = Math.floor($.now() / 1000);
 			
 			if(eventDate <= currentDate) {
