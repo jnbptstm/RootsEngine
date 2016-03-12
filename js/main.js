@@ -2,7 +2,7 @@ jQuery(function($) {'use strict',
 	
 	//Countdown js
 	 $("#countdown").countdown({
-			date: "11 june 2015 20:00:00",
+			date: "13 march 2016 20:00:00",
 			format: "on"
 		},
 		
@@ -37,8 +37,12 @@ jQuery(function($) {'use strict',
 	
 	
 	// Carousel Auto Slide Off
-	$('#event-carousel, #twitter-feed, #sponsor-carousel ').carousel({
+	$('#sponsor-carousel').carousel({
 		interval: false
+	});
+
+	$('#event-carousel, #twitter-feed').carousel({
+		interval: 4000
 	});
 
 
@@ -75,8 +79,8 @@ jQuery(function($) {'use strict',
 
 	map = new GMaps({
 		el: '#gmap',
-		lat: 48.867619,
-		lng: 2.363834,
+		lat: 48.865776, // 48.758566, 48.886131 
+		lng: 2.376901, //  2.049900, 2.382199
 		scrollwheel:false,
 		zoom: 15,
 		zoomControl : true,
@@ -89,8 +93,8 @@ jQuery(function($) {'use strict',
 
 	var image = 'images/map-icon.png';
 	map.addMarker({
-		lat: 48.867619,
-		lng: 2.363834,
+		lat: 48.865776,
+		lng: 2.376901,
 		icon: image,
 		animation: google.maps.Animation.DROP,
 		verticalAlign: 'bottom',

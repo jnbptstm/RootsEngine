@@ -19,8 +19,9 @@
 		function countdown_proc() {
 			
 			// eventDate = Date.parse(settings['date']) / 1000;
-			// eventDate = new Date("Feb 11 15:11:00 2015") / 1000;
-			eventDate = new Date("Sep 27 12:00:00 2015") / 1000;
+			eventDate = new Date("March 31 20:00:00 2016") / 1000;
+//			eventDate = new Date("April 02 20:00:00 2016") / 1000;
+//			eventDate = new Date("April 08 20:00:00 2016") / 1000;
 			currentDate = Math.floor($.now() / 1000);
 			
 			if(eventDate <= currentDate) {

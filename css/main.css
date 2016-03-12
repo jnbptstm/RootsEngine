@@ -285,6 +285,24 @@ h2 {
   border: 1px solid #fff;
 }
 
+
+/** Event carouseil **/
+
+
+/*************************
+****Get album & Donate****
+**************************/
+#get_album_and_donate {
+  background-image: url("../images/symphony.png");
+  background-repeat: repeat;
+  height: 300px;
+
+  display: flex;              /* establish flex container */
+  flex-direction: column;
+  justify-content: center;    /* align items vertically, in this case */
+  align-items: center;        /* align items horizontally, in this case */
+}
+
 /*************************
 *******Explore CSS******
 **************************/
@@ -437,7 +455,7 @@ h2 a.concert_place:hover{
 #event {
   background-color: #33888F;
   background-image: url("../images/performar-bg.jpg");
-  background-position: 50% 0;
+  background-position: 0 0;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
