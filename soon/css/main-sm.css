@@ -1,0 +1,114 @@
+/*-- Typography --*/
+
+
+
+
+/*************************
+*******Header CSS******
+**************************/
+
+
+
+/*************************
+*******General CSS******
+**************************/
+
+.navbar-fixed-top-sm {
+  height: 50px; 
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+}
+
+.social-media-sm {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.general-text-center-sm p{
+  font-family: 'HelveticaNeueLTStd-Cn.otf',Sans-Serif;
+  src: url('../fonts/HelveticaNeueLTStd-Cn.otf');
+  text-align: center;
+  color: #000;
+  opacity: 1;
+}
+
+
+/*************************
+*******Home CSS******
+**************************/
+
+.intro-section-sm {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background:url(../images/slider/font_resized.jpg) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover;
+  position: relative; /* version standardisée */
+}
+
+
+.center-sm {
+  margin-top: 50px;
+  left: 0;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;  
+  position: relative;
+}
+
+.logo-sizing-sm {
+  opacity : 0.65;
+  max-height: 100%;  
+  max-width: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+}
+
+.footer-sm {
+  height: 50px; 
+  width: 100vw;
+  left: 0;
+  bottom: 0;
+  background-color: #B00000;
+  position: absolute;
+  padding-top: 10px;
+  opacity: 0.7;
+}
+
+
+/*************************
+****SOUND***
+**************************/
+
+
+
+/*************************
+*******BAND******
+**************************/
+
+
+/*************************
+*******Dates*******
+**************************/
+
+
+/*************************
+*******Media CSS******
+**************************/
+
+
+/*************************
+*******Footer CSS******
+**************************/
+
