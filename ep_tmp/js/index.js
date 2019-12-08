@@ -21,30 +21,30 @@ jQuery(function ($) {
             extension = 'mp3',
             tracks = [{
                 "track": 1,
-                "name": "Rakuntata",
-                "length": "02:45",
-                "file": "01_Rakuntata"
-            }, {
-                "track": 2,
                 "name": "Life Is Cool",
                 "length": "07:19",
                 "file": "02_LifeIsCool"
             }, {
-                "track": 3,
+                "track": 2,
                 "name": "I Never Imagined",
                 "length": "05:24",
                 "file": "03_INeverImagined"
             }, {
-                "track": 4,
+                "track": 3,
                 "name": "Far Away",
                 "length": "06:34",
                 "file": "04_FarAway"
             }, {
-                "track": 5,
+                "track": 4,
                 "name": "Not Enough",
                 "length": "03:42",
                 "file": "05_NotEnough"
-            }],
+            },{
+                "track": 5,
+                "name": "Rakuntata",
+                "length": "02:45",
+                "file": "01_Rakuntata"
+            },],
             trackCount = tracks.length,
             npAction = $('#npAction'),
             npTitle = $('#npTitle'),
