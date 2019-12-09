@@ -21,24 +21,24 @@ jQuery(function ($) {
             extension = 'mp3',
             tracks = [{
                 "track": 1,
+                "name": "Not Enough",
+                "length": "03:42",
+                "file": "05_NotEnough"
+            },{
+                "track": 2,
                 "name": "Life Is Cool",
                 "length": "07:19",
                 "file": "02_LifeIsCool"
             }, {
-                "track": 2,
+                "track": 3,
                 "name": "I Never Imagined",
                 "length": "05:24",
                 "file": "03_INeverImagined"
             }, {
-                "track": 3,
+                "track": 4,
                 "name": "Far Away",
                 "length": "06:34",
                 "file": "04_FarAway"
-            }, {
-                "track": 4,
-                "name": "Not Enough",
-                "length": "03:42",
-                "file": "05_NotEnough"
             },{
                 "track": 5,
                 "name": "Rakuntata",
