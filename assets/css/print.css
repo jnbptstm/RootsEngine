@@ -79,7 +79,7 @@
     a[href^=http]:after {
         content: " <" attr(href) "> ";
     }
-    $a:after>img {
+    a:after>img {
         content: "";
     }
     article a[href^="#"]:after {
