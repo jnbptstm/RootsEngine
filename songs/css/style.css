@@ -82,7 +82,7 @@ ul {
 ================================================== */
 
 html.perpetual_travel {
-    background-image: url("../albums/perpetual_travel_cover.jpg");
+    background-image: url("../../images/perpetual_travel_cover.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ html.perpetual_travel {
 }
 
 html.reflections {
-    background-image: url("../albums/reflections_cover.jpg");
+    background-image: url("../../images/reflections_cover.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
