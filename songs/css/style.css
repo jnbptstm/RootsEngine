@@ -98,7 +98,7 @@ html.perpetual_travel {
 }
 
 html.reflections {
-    background-image: url("../../images/reflections_cover.jpg");
+    background-image: url("../../images/reflections_cover.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
