@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: therootsengine.com
+Token: f5841da1289ca8cc700a0fcc7feb27476c2efc88a7c6a90a8ecd9a51e605e93a
